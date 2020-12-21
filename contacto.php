@@ -1,4 +1,4 @@
-echo" 
+<?php echo" 
 <html lang="es">
 <head>
   <!-- -->
@@ -21,4 +21,4 @@ echo"
  </footer>
 </body>
 </html>
-";
+";?>
