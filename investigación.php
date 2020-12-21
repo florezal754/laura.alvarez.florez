@@ -1,24 +1,19 @@
-<?php echo" ";echo" 
-<html lang="es">
-<head>
-  <!-- -->
+<?php echo"
+<div0 class='head'>
   <title></title>
   <meta charset="utf-8">
-  <meta name="description" content="Este es un documento HTML5">
-  <link rel="stylesheet" href="css/estilos.css" TYPE="text/css">
   <style>
   </style>
-</head>
-<body>
- <header>
+</div0>
+<div1 class='body'>
+ <div2 class='header'>
   <h1>investigación</h1>
- </header>
- <nav>
- </nav>
- <main>
- </main>
- <footer>
- </footer>
-</body>
-</html>
+ </div2>
+ <div3 class='nav'>
+ </div3>
+ <div4 class='main'>
+ </div4>
+ <div5 class='footer'>
+ </div5>
+</div1>
 ";?>
