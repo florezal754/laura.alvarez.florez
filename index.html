@@ -7,6 +7,8 @@
   <title>App web para visualizar con heroku.com</title>
   <meta charset="utf-8">
   <meta name="description" content="Este es un documento HTML5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/estilos.css" TYPE="text/css">
   <style>
   body {
@@ -16,7 +18,11 @@
   header {}
   hav {}
   main {}
-  footer {}
+  footer {
+      background-color: lightslategrey;
+      color: white;
+      padding: 15px;
+    }
   
   .dv0
    mark {
@@ -26,6 +32,9 @@
      padding-right: 20px;
 	}
 	
+  .jumbotron {
+    background-color: lightslategrey;
+  }
   .dv1
   .dv2
   .dv3
@@ -33,6 +42,10 @@
   </style>
 </head>
 <body>
+  <div class="jumbotron text-center bg-warning">
+  <h1>La primera vez que utilizo HEROKU</h1>
+  <p>Esta página está hecha con bootstrap</p> 
+</div>
  <header>
     <div class="dv0">
 	<!--table and giant marked text-->
@@ -48,13 +61,30 @@
     </div>
  </header>
  <nav> 
-  <a href="obras.php" target="_blank">obras</a><br>
-  <a href="investigación.php" target="_blank">investigación</a><br>
-  <a href="contacto.php" target="_blank">contacto</a>
+  <a href="pagina1.html" target="_blank">obras</a><br>
+  <a href="pagina2.html" target="_blank">investigación</a><br>
+  <a href="pagina3.html" target="_blank">contacto</a>
  </nav>
  <main>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4 bg-success">
+      <a href="pagina1.html" target="_blank">obras</a><br>
+      <p>Aquí encontrarás todos los trabajos que he realizado en los últimos años.</p>
+    </div>
+    <div class="col-sm-4 bg-info">
+      <a href="pagina2.html" target="_blank">investigación</a><br>
+      <p>Aquí señalo las últimas investigaciones que estoy llevando a cabo.</p>
+    </div>
+    <div class="col-sm-4 bg-danger">
+      <a href="pagina3.html" target="_blank">Aquí puedes contactar conmigo en caso de que quieras saber algo más.</a> <br>
+      <button>Envíame un email</button>
+    </div>
+  </div>
+</div>
  </main>
- <footer>
- </footer>
+  <footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
 </body>
 </html>
